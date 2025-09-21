@@ -1,0 +1,124 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    ;
+}
+.bi-translate{
+    color: white;
+    margin-left: 646px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    font-size: 12px;
+    background-color: rgb(21, 21, 21);
+    padding: 5px;
+    
+}
+.language-button{
+    margin-top: 25px;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/c95abc7a-8124-4630-bb7a-3b160bdc6de3/web/IN-en-20250915-TRIFECTA-perspective_d3d87aa7-58ed-4c6b-98dc-231ed05ba675_large.jpg);
+    background-position: center;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    height: 100vh;
+    width: 50vw;  
+}
+.shade{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 102vh;
+    width: 100vw;
+    margin: -8px;
+}
+.header-main{
+    margin-left: 113px;
+    margin-top: 20px;
+    
+}
+.sign-in{
+    color: white;
+    margin-right: 118px;
+    font-size: 10px;
+    font-family: sans-serif;
+    border: 1px solid red;
+    border-radius: 2px;
+    background-color: red;
+    padding: 5px;
+    cursor: pointer;
+}
+.lol{
+    margin-top: 25px;
+}
+article{
+    color: white;
+    font-family: sans-serif;  
+}
+.first{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    font-size: 45px;
+    
+}
+.second{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1px;
+    font-size: 45px;
+    z-index: 5;
+}
+.third{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top:18px ;
+    font-size: 15px;
+}
+.fourth{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 27px;
+    font-size: 13px;
+}
+.fifth{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+
+}
+.fifth .info1{
+    background-color: rgba(22, 21, 21, 0.732);
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding-right: 200px;
+    padding-left: 10px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 13px;
+    color: rgb(167, 163, 163);
+    margin-right: 30px;
+
+}
+.fifth .info2{
+    border: none;
+    background-color: red;
+    border-radius: 3px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-right: 21px;
+    font-size: 20px;
+    cursor: pointer;
+}
